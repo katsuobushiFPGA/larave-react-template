@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "experimentalDecorators": true,
+        "target": "es5",
+        "baseUrl": ".",
+        "paths": {
+            "libtypes": ["node_modules/@types"],
+            "window": ["resources/ts/@types/window.d.ts"]
+        },
+        "jsx": "react",
+        "lib": [
+            "dom",
+            "es6"
+        ]
+    },
+    "include": [
+        "resources"
+    ],
+    "compileOnSave": false
+}
